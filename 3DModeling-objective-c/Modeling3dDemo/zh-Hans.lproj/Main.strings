@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "3D魔方"; ObjectID = "DGC-Wd-tOP"; */
+"DGC-Wd-tOP.text" = "3D魔方";
+
+/* Class = "UILabel"; text = "历史记录"; ObjectID = "DLJ-ew-6Pm"; */
+"DLJ-ew-6Pm.text" = "历史记录";
+
+/* Class = "UIButton"; normalTitle = "本地文件"; ObjectID = "DrI-id-oMH"; */
+"DrI-id-oMH.normalTitle" = "本地文件";
+
+/* Class = "UILabel"; text = "打开相册，选择想要建模的一组照片，上传数量20~200张"; ObjectID = "SZd-VH-uqa"; */
+"SZd-VH-uqa.text" = "打开相册，选择想要建模的一组照片，上传数量20~200张";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "XMu-YP-Hxv"; */
+"XMu-YP-Hxv.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "如何上传？"; ObjectID = "Y3e-tr-aez"; */
+"Y3e-tr-aez.normalTitle" = "如何上传？";
+
+/* Class = "UILabel"; text = "本地文件"; ObjectID = "ZSx-hn-GOC"; */
+"ZSx-hn-GOC.text" = "本地文件";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "iYc-CG-Qtt"; */
+"iYc-CG-Qtt.title" = "我的";
+
+/* Class = "UIButton"; normalTitle = "上传"; ObjectID = "tE8-kh-52p"; */
+"tE8-kh-52p.normalTitle" = "上传";
+
+/* Class = "UILabel"; text = "上传照片开始建模"; ObjectID = "xpH-gm-YZ5"; */
+"xpH-gm-YZ5.text" = "上传照片开始建模";

@@ -8,12 +8,12 @@ English | [中文](README_ZH.md)
 
 This project includes apps developed based on HUAWEI 3D Modeling Kit. The project directory is as follows:
 
-|-- 3DModeling-Sample // 3D Modeling Kit sample code.
+|-- 3DModeling-objective-c // 3D Modeling Kit objective-c sample code.
 
 
 ## Precautions
 
-The hms-3dmodeling-demo project contains a sample app. After downloading and running the code, you can experience full 3D Modeling Kit capabilities. 
+The hms-3d-modeling-demo-ios project contains a sample app. After downloading and running the code, you can experience full 3D Modeling Kit capabilities. 
 
 ## Technical Support
 

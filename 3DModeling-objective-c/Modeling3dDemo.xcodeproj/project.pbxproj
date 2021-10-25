@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562A504326CA00880041432D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A504226CA00880041432D /* Security.framework */; };
+		5631E34F27143AF9000F63A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5631E35127143AF9000F63A3 /* Localizable.strings */; };
+		56A93611271D6DF1007E4764 /* agconnect-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A93610271D6DF1007E4764 /* agconnect-services.plist */; };
+		56DCED34271EB0760090D124 /* Modeling3dKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DCED32271EB0720090D124 /* Modeling3dKit.framework */; };
+		56DCED35271EB0760090D124 /* Modeling3dKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56DCED32271EB0720090D124 /* Modeling3dKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56FD6DCE270FEFB000EA4CDC /* UIViewController+CustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D2B270FEFAF00EA4CDC /* UIViewController+CustomAlert.m */; };
+		56FD6DCF270FEFB000EA4CDC /* Modeling3dDemoFilesListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D2D270FEFAF00EA4CDC /* Modeling3dDemoFilesListVC.m */; };
+		56FD6DD0270FEFB000EA4CDC /* Modeling3dDemoMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D2F270FEFAF00EA4CDC /* Modeling3dDemoMineVC.m */; };
+		56FD6DD1270FEFB000EA4CDC /* Modeling3dDemoHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D30270FEFAF00EA4CDC /* Modeling3dDemoHomeVC.m */; };
+		56FD6DD2270FEFB000EA4CDC /* Modeling3dProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D33270FEFAF00EA4CDC /* Modeling3dProgressAlertView.m */; };
+		56FD6DD3270FEFB000EA4CDC /* Modeling3dProgressAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D34270FEFAF00EA4CDC /* Modeling3dProgressAlertView.xib */; };
+		56FD6DD4270FEFB000EA4CDC /* Modeling3dMainListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D35270FEFAF00EA4CDC /* Modeling3dMainListCell.m */; };
+		56FD6DD5270FEFB000EA4CDC /* Modeling3dMainListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D36270FEFAF00EA4CDC /* Modeling3dMainListCell.xib */; };
+		56FD6DD6270FEFB000EA4CDC /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D3C270FEFAF00EA4CDC /* TZImageCropManager.m */; };
+		56FD6DD7270FEFB000EA4CDC /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D3E270FEFAF00EA4CDC /* TZAssetCell.m */; };
+		56FD6DD8270FEFB000EA4CDC /* TZVideoEditedPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D3F270FEFAF00EA4CDC /* TZVideoEditedPreviewController.m */; };
+		56FD6DD9270FEFB000EA4CDC /* TZVideoCropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D40270FEFAF00EA4CDC /* TZVideoCropController.m */; };
+		56FD6DDA270FEFB000EA4CDC /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D41270FEFAF00EA4CDC /* TZVideoPlayerController.m */; };
+		56FD6DDB270FEFB000EA4CDC /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D42270FEFAF00EA4CDC /* TZAssetModel.m */; };
+		56FD6DDC270FEFB000EA4CDC /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D43270FEFAF00EA4CDC /* NSBundle+TZImagePicker.m */; };
+		56FD6DDD270FEFB000EA4CDC /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D47270FEFAF00EA4CDC /* TZPhotoPreviewController.m */; };
+		56FD6DDE270FEFB000EA4CDC /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D48270FEFAF00EA4CDC /* TZImagePickerController.bundle */; };
+		56FD6DDF270FEFB000EA4CDC /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D49270FEFAF00EA4CDC /* TZProgressView.m */; };
+		56FD6DE0270FEFB000EA4CDC /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D4E270FEFAF00EA4CDC /* TZImageManager.m */; };
+		56FD6DE1270FEFB000EA4CDC /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D50270FEFAF00EA4CDC /* TZPhotoPickerController.m */; };
+		56FD6DE2270FEFB000EA4CDC /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D51270FEFAF00EA4CDC /* TZPhotoPreviewCell.m */; };
+		56FD6DE3270FEFB000EA4CDC /* UIView+TZLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D53270FEFAF00EA4CDC /* UIView+TZLayout.m */; };
+		56FD6DE4270FEFB000EA4CDC /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D58270FEFAF00EA4CDC /* TZImagePickerController.m */; };
+		56FD6DE5270FEFB000EA4CDC /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D59270FEFAF00EA4CDC /* TZLocationManager.m */; };
+		56FD6DE6270FEFB000EA4CDC /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D5A270FEFAF00EA4CDC /* TZGifPhotoPreviewController.m */; };
+		56FD6DE7270FEFB000EA4CDC /* TZImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D5B270FEFAF00EA4CDC /* TZImageRequestOperation.m */; };
+		56FD6DE8270FEFB000EA4CDC /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D5E270FEFAF00EA4CDC /* SVRadialGradientLayer.m */; };
+		56FD6DE9270FEFB000EA4CDC /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D61270FEFAF00EA4CDC /* SVProgressAnimatedView.m */; };
+		56FD6DEA270FEFB000EA4CDC /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D64270FEFAF00EA4CDC /* SVProgressHUD.m */; };
+		56FD6DEB270FEFB000EA4CDC /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D65270FEFAF00EA4CDC /* SVIndefiniteAnimatedView.m */; };
+		56FD6DEC270FEFB000EA4CDC /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D66270FEFAF00EA4CDC /* SVProgressHUD.bundle */; };
+		56FD6DED270FEFB000EA4CDC /* CGXPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D6D270FEFAF00EA4CDC /* CGXPopoverManager.m */; };
+		56FD6DEE270FEFB000EA4CDC /* CGXPopovewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D6E270FEFAF00EA4CDC /* CGXPopovewCell.m */; };
+		56FD6DEF270FEFB000EA4CDC /* CGXPopoverItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D6F270FEFAF00EA4CDC /* CGXPopoverItem.m */; };
+		56FD6DF0270FEFB000EA4CDC /* CGXPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D70270FEFAF00EA4CDC /* CGXPopoverView.m */; };
+		56FD6DF1270FEFB000EA4CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D73270FEFAF00EA4CDC /* Assets.xcassets */; };
+		56FD6DF2270FEFB000EA4CDC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D74270FEFAF00EA4CDC /* SceneDelegate.m */; };
+		56FD6DF3270FEFB000EA4CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D75270FEFAF00EA4CDC /* LaunchScreen.storyboard */; };
+		56FD6DF4270FEFB000EA4CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FD6D77270FEFAF00EA4CDC /* Main.storyboard */; };
+		56FD6DF5270FEFB000EA4CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6D79270FEFAF00EA4CDC /* main.m */; };
+		56FD6E17270FEFB000EA4CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FD6DCB270FEFB000EA4CDC /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56A9360B271D67D4007E4764 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56DCED35271EB0760090D124 /* Modeling3dKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		562A504226CA00880041432D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5631E35027143AF9000F63A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5631E35327143B00000F63A3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5632E0B526C26EE000E67B98 /* Modeling3dDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modeling3dDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A93610271D6DF1007E4764 /* agconnect-services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "agconnect-services.plist"; sourceTree = "<group>"; };
+		56DCED32271EB0720090D124 /* Modeling3dKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Modeling3dKit.framework; sourceTree = "<group>"; };
+		56F94B9E2714308500EF6676 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		56F94BA0271430BA00EF6676 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		56FD6D2A270FEFAF00EA4CDC /* Modeling3dDemoMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modeling3dDemoMineVC.h; sourceTree = "<group>"; };
+		56FD6D2B270FEFAF00EA4CDC /* UIViewController+CustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomAlert.m"; sourceTree = "<group>"; };
+		56FD6D2C270FEFAF00EA4CDC /* Modeling3dDemoHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modeling3dDemoHomeVC.h; sourceTree = "<group>"; };
+		56FD6D2D270FEFAF00EA4CDC /* Modeling3dDemoFilesListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modeling3dDemoFilesListVC.m; sourceTree = "<group>"; };
+		56FD6D2E270FEFAF00EA4CDC /* UIViewController+CustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomAlert.h"; sourceTree = "<group>"; };
+		56FD6D2F270FEFAF00EA4CDC /* Modeling3dDemoMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modeling3dDemoMineVC.m; sourceTree = "<group>"; };
+		56FD6D30270FEFAF00EA4CDC /* Modeling3dDemoHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modeling3dDemoHomeVC.m; sourceTree = "<group>"; };
+		56FD6D32270FEFAF00EA4CDC /* Modeling3dMainListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modeling3dMainListCell.h; sourceTree = "<group>"; };
+		56FD6D33270FEFAF00EA4CDC /* Modeling3dProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modeling3dProgressAlertView.m; sourceTree = "<group>"; };
+		56FD6D34270FEFAF00EA4CDC /* Modeling3dProgressAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Modeling3dProgressAlertView.xib; sourceTree = "<group>"; };
+		56FD6D35270FEFAF00EA4CDC /* Modeling3dMainListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modeling3dMainListCell.m; sourceTree = "<group>"; };
+		56FD6D36270FEFAF00EA4CDC /* Modeling3dMainListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Modeling3dMainListCell.xib; sourceTree = "<group>"; };
+		56FD6D37270FEFAF00EA4CDC /* Modeling3dProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modeling3dProgressAlertView.h; sourceTree = "<group>"; };
+		56FD6D3A270FEFAF00EA4CDC /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		56FD6D3B270FEFAF00EA4CDC /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		56FD6D3C270FEFAF00EA4CDC /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		56FD6D3D270FEFAF00EA4CDC /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		56FD6D3E270FEFAF00EA4CDC /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		56FD6D3F270FEFAF00EA4CDC /* TZVideoEditedPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoEditedPreviewController.m; sourceTree = "<group>"; };
+		56FD6D40270FEFAF00EA4CDC /* TZVideoCropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoCropController.m; sourceTree = "<group>"; };
+		56FD6D41270FEFAF00EA4CDC /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		56FD6D42270FEFAF00EA4CDC /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		56FD6D43270FEFAF00EA4CDC /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		56FD6D44270FEFAF00EA4CDC /* UIView+TZLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TZLayout.h"; sourceTree = "<group>"; };
+		56FD6D45270FEFAF00EA4CDC /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		56FD6D46270FEFAF00EA4CDC /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		56FD6D47270FEFAF00EA4CDC /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		56FD6D48270FEFAF00EA4CDC /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		56FD6D49270FEFAF00EA4CDC /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		56FD6D4A270FEFAF00EA4CDC /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		56FD6D4B270FEFAF00EA4CDC /* TZImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageRequestOperation.h; sourceTree = "<group>"; };
+		56FD6D4C270FEFAF00EA4CDC /* TZVideoEditedPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoEditedPreviewController.h; sourceTree = "<group>"; };
+		56FD6D4D270FEFAF00EA4CDC /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		56FD6D4E270FEFAF00EA4CDC /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		56FD6D4F270FEFAF00EA4CDC /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		56FD6D50270FEFAF00EA4CDC /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		56FD6D51270FEFAF00EA4CDC /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		56FD6D52270FEFAF00EA4CDC /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		56FD6D53270FEFAF00EA4CDC /* UIView+TZLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TZLayout.m"; sourceTree = "<group>"; };
+		56FD6D54270FEFAF00EA4CDC /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		56FD6D55270FEFAF00EA4CDC /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		56FD6D56270FEFAF00EA4CDC /* TZVideoCropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoCropController.h; sourceTree = "<group>"; };
+		56FD6D57270FEFAF00EA4CDC /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		56FD6D58270FEFAF00EA4CDC /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		56FD6D59270FEFAF00EA4CDC /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		56FD6D5A270FEFAF00EA4CDC /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		56FD6D5B270FEFAF00EA4CDC /* TZImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageRequestOperation.m; sourceTree = "<group>"; };
+		56FD6D5C270FEFAF00EA4CDC /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		56FD6D5E270FEFAF00EA4CDC /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		56FD6D5F270FEFAF00EA4CDC /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		56FD6D60270FEFAF00EA4CDC /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		56FD6D61270FEFAF00EA4CDC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		56FD6D62270FEFAF00EA4CDC /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		56FD6D63270FEFAF00EA4CDC /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		56FD6D64270FEFAF00EA4CDC /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		56FD6D65270FEFAF00EA4CDC /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		56FD6D66270FEFAF00EA4CDC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		56FD6D67270FEFAF00EA4CDC /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		56FD6D69270FEFAF00EA4CDC /* CGXPopovewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPopovewCell.h; sourceTree = "<group>"; };
+		56FD6D6A270FEFAF00EA4CDC /* CGXPopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPopoverManager.h; sourceTree = "<group>"; };
+		56FD6D6B270FEFAF00EA4CDC /* CGXPopoverItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPopoverItem.h; sourceTree = "<group>"; };
+		56FD6D6C270FEFAF00EA4CDC /* CGXPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPopoverView.h; sourceTree = "<group>"; };
+		56FD6D6D270FEFAF00EA4CDC /* CGXPopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPopoverManager.m; sourceTree = "<group>"; };
+		56FD6D6E270FEFAF00EA4CDC /* CGXPopovewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPopovewCell.m; sourceTree = "<group>"; };
+		56FD6D6F270FEFAF00EA4CDC /* CGXPopoverItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPopoverItem.m; sourceTree = "<group>"; };
+		56FD6D70270FEFAF00EA4CDC /* CGXPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPopoverView.m; sourceTree = "<group>"; };
+		56FD6D71270FEFAF00EA4CDC /* Modeling3dDemoFilesListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modeling3dDemoFilesListVC.h; sourceTree = "<group>"; };
+		56FD6D72270FEFAF00EA4CDC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56FD6D73270FEFAF00EA4CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56FD6D74270FEFAF00EA4CDC /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		56FD6D76270FEFAF00EA4CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56FD6D78270FEFAF00EA4CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56FD6D79270FEFAF00EA4CDC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56FD6DCB270FEFB000EA4CDC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56FD6DCC270FEFB000EA4CDC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FD6DCD270FEFB000EA4CDC /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5632E0B226C26EE000E67B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A504326CA00880041432D /* Security.framework in Frameworks */,
+				56DCED34271EB0760090D124 /* Modeling3dKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562A504126CA00880041432D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562A504226CA00880041432D /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5632E0AC26C26EE000E67B98 = {
+			isa = PBXGroup;
+			children = (
+				56FD6D28270FEFAF00EA4CDC /* Modeling3dDemo */,
+				5632E0B626C26EE000E67B98 /* Products */,
+				562A504126CA00880041432D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5632E0B626C26EE000E67B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5632E0B526C26EE000E67B98 /* Modeling3dDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56FD6D28270FEFAF00EA4CDC /* Modeling3dDemo */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D72270FEFAF00EA4CDC /* AppDelegate.h */,
+				56FD6DCB270FEFB000EA4CDC /* AppDelegate.m */,
+				56DCED32271EB0720090D124 /* Modeling3dKit.framework */,
+				56FD6D73270FEFAF00EA4CDC /* Assets.xcassets */,
+				56FD6DCC270FEFB000EA4CDC /* Info.plist */,
+				56FD6D75270FEFAF00EA4CDC /* LaunchScreen.storyboard */,
+				56A93610271D6DF1007E4764 /* agconnect-services.plist */,
+				56FD6D79270FEFAF00EA4CDC /* main.m */,
+				5631E35127143AF9000F63A3 /* Localizable.strings */,
+				56FD6D77270FEFAF00EA4CDC /* Main.storyboard */,
+				56FD6DCD270FEFB000EA4CDC /* SceneDelegate.h */,
+				56FD6D74270FEFAF00EA4CDC /* SceneDelegate.m */,
+				56FD6D29270FEFAF00EA4CDC /* UI */,
+			);
+			path = Modeling3dDemo;
+			sourceTree = "<group>";
+		};
+		56FD6D29270FEFAF00EA4CDC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D38270FEFAF00EA4CDC /* Lib */,
+				56FD6D31270FEFAF00EA4CDC /* View */,
+				56FD6D71270FEFAF00EA4CDC /* Modeling3dDemoFilesListVC.h */,
+				56FD6D2D270FEFAF00EA4CDC /* Modeling3dDemoFilesListVC.m */,
+				56FD6D2C270FEFAF00EA4CDC /* Modeling3dDemoHomeVC.h */,
+				56FD6D30270FEFAF00EA4CDC /* Modeling3dDemoHomeVC.m */,
+				56FD6D2A270FEFAF00EA4CDC /* Modeling3dDemoMineVC.h */,
+				56FD6D2F270FEFAF00EA4CDC /* Modeling3dDemoMineVC.m */,
+				56FD6D2E270FEFAF00EA4CDC /* UIViewController+CustomAlert.h */,
+				56FD6D2B270FEFAF00EA4CDC /* UIViewController+CustomAlert.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		56FD6D31270FEFAF00EA4CDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D32270FEFAF00EA4CDC /* Modeling3dMainListCell.h */,
+				56FD6D35270FEFAF00EA4CDC /* Modeling3dMainListCell.m */,
+				56FD6D36270FEFAF00EA4CDC /* Modeling3dMainListCell.xib */,
+				56FD6D37270FEFAF00EA4CDC /* Modeling3dProgressAlertView.h */,
+				56FD6D33270FEFAF00EA4CDC /* Modeling3dProgressAlertView.m */,
+				56FD6D34270FEFAF00EA4CDC /* Modeling3dProgressAlertView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56FD6D38270FEFAF00EA4CDC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D39270FEFAF00EA4CDC /* TZImagePickerController */,
+				56FD6D5D270FEFAF00EA4CDC /* SVProgressHUD */,
+				56FD6D68270FEFAF00EA4CDC /* CGXPopoverView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		56FD6D39270FEFAF00EA4CDC /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D52270FEFAF00EA4CDC /* NSBundle+TZImagePicker.h */,
+				56FD6D43270FEFAF00EA4CDC /* NSBundle+TZImagePicker.m */,
+				56FD6D4D270FEFAF00EA4CDC /* TZAssetCell.h */,
+				56FD6D3E270FEFAF00EA4CDC /* TZAssetCell.m */,
+				56FD6D54270FEFAF00EA4CDC /* TZAssetModel.h */,
+				56FD6D42270FEFAF00EA4CDC /* TZAssetModel.m */,
+				56FD6D4A270FEFAF00EA4CDC /* TZGifPhotoPreviewController.h */,
+				56FD6D5A270FEFAF00EA4CDC /* TZGifPhotoPreviewController.m */,
+				56FD6D4F270FEFAF00EA4CDC /* TZImageCropManager.h */,
+				56FD6D3C270FEFAF00EA4CDC /* TZImageCropManager.m */,
+				56FD6D3D270FEFAF00EA4CDC /* TZImageManager.h */,
+				56FD6D4E270FEFAF00EA4CDC /* TZImageManager.m */,
+				56FD6D48270FEFAF00EA4CDC /* TZImagePickerController.bundle */,
+				56FD6D46270FEFAF00EA4CDC /* TZImagePickerController.h */,
+				56FD6D58270FEFAF00EA4CDC /* TZImagePickerController.m */,
+				56FD6D4B270FEFAF00EA4CDC /* TZImageRequestOperation.h */,
+				56FD6D5B270FEFAF00EA4CDC /* TZImageRequestOperation.m */,
+				56FD6D45270FEFAF00EA4CDC /* TZLocationManager.h */,
+				56FD6D59270FEFAF00EA4CDC /* TZLocationManager.m */,
+				56FD6D3B270FEFAF00EA4CDC /* TZPhotoPickerController.h */,
+				56FD6D50270FEFAF00EA4CDC /* TZPhotoPickerController.m */,
+				56FD6D3A270FEFAF00EA4CDC /* TZPhotoPreviewCell.h */,
+				56FD6D51270FEFAF00EA4CDC /* TZPhotoPreviewCell.m */,
+				56FD6D57270FEFAF00EA4CDC /* TZPhotoPreviewController.h */,
+				56FD6D47270FEFAF00EA4CDC /* TZPhotoPreviewController.m */,
+				56FD6D5C270FEFAF00EA4CDC /* TZProgressView.h */,
+				56FD6D49270FEFAF00EA4CDC /* TZProgressView.m */,
+				56FD6D56270FEFAF00EA4CDC /* TZVideoCropController.h */,
+				56FD6D40270FEFAF00EA4CDC /* TZVideoCropController.m */,
+				56FD6D4C270FEFAF00EA4CDC /* TZVideoEditedPreviewController.h */,
+				56FD6D3F270FEFAF00EA4CDC /* TZVideoEditedPreviewController.m */,
+				56FD6D55270FEFAF00EA4CDC /* TZVideoPlayerController.h */,
+				56FD6D41270FEFAF00EA4CDC /* TZVideoPlayerController.m */,
+				56FD6D44270FEFAF00EA4CDC /* UIView+TZLayout.h */,
+				56FD6D53270FEFAF00EA4CDC /* UIView+TZLayout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		56FD6D5D270FEFAF00EA4CDC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D5E270FEFAF00EA4CDC /* SVRadialGradientLayer.m */,
+				56FD6D5F270FEFAF00EA4CDC /* SVIndefiniteAnimatedView.h */,
+				56FD6D60270FEFAF00EA4CDC /* SVProgressHUD.h */,
+				56FD6D61270FEFAF00EA4CDC /* SVProgressAnimatedView.m */,
+				56FD6D62270FEFAF00EA4CDC /* SVProgressHUD-Prefix.pch */,
+				56FD6D63270FEFAF00EA4CDC /* SVRadialGradientLayer.h */,
+				56FD6D64270FEFAF00EA4CDC /* SVProgressHUD.m */,
+				56FD6D65270FEFAF00EA4CDC /* SVIndefiniteAnimatedView.m */,
+				56FD6D66270FEFAF00EA4CDC /* SVProgressHUD.bundle */,
+				56FD6D67270FEFAF00EA4CDC /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		56FD6D68270FEFAF00EA4CDC /* CGXPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				56FD6D69270FEFAF00EA4CDC /* CGXPopovewCell.h */,
+				56FD6D6A270FEFAF00EA4CDC /* CGXPopoverManager.h */,
+				56FD6D6B270FEFAF00EA4CDC /* CGXPopoverItem.h */,
+				56FD6D6C270FEFAF00EA4CDC /* CGXPopoverView.h */,
+				56FD6D6D270FEFAF00EA4CDC /* CGXPopoverManager.m */,
+				56FD6D6E270FEFAF00EA4CDC /* CGXPopovewCell.m */,
+				56FD6D6F270FEFAF00EA4CDC /* CGXPopoverItem.m */,
+				56FD6D70270FEFAF00EA4CDC /* CGXPopoverView.m */,
+			);
+			path = CGXPopoverView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5632E0B426C26EE000E67B98 /* Modeling3dDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5632E0CE26C26EEF00E67B98 /* Build configuration list for PBXNativeTarget "Modeling3dDemo" */;
+			buildPhases = (
+				5632E0B126C26EE000E67B98 /* Sources */,
+				5632E0B226C26EE000E67B98 /* Frameworks */,
+				5632E0B326C26EE000E67B98 /* Resources */,
+				56A9360B271D67D4007E4764 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modeling3dDemo;
+			productName = 3DMagicObjReconstructDemo;
+			productReference = 5632E0B526C26EE000E67B98 /* Modeling3dDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5632E0AD26C26EE000E67B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Modeling3d;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5632E0B426C26EE000E67B98 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5632E0B026C26EE000E67B98 /* Build configuration list for PBXProject "Modeling3dDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				he,
+				ar,
+				"zh-Hans",
+				ja,
+				es,
+				da,
+				it,
+				sv,
+				ko,
+				"zh-Hant",
+				hu,
+				"hi-IN",
+				tr,
+				"nl-NL",
+				"es-MX",
+				ru,
+				fr,
+				fi,
+				id,
+				nl,
+				pt,
+				"pt-PT",
+			);
+			mainGroup = 5632E0AC26C26EE000E67B98;
+			productRefGroup = 5632E0B626C26EE000E67B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5632E0B426C26EE000E67B98 /* Modeling3dDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5632E0B326C26EE000E67B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631E34F27143AF9000F63A3 /* Localizable.strings in Resources */,
+				56FD6DD3270FEFB000EA4CDC /* Modeling3dProgressAlertView.xib in Resources */,
+				56FD6DD5270FEFB000EA4CDC /* Modeling3dMainListCell.xib in Resources */,
+				56FD6DF3270FEFB000EA4CDC /* LaunchScreen.storyboard in Resources */,
+				56FD6DEC270FEFB000EA4CDC /* SVProgressHUD.bundle in Resources */,
+				56FD6DDE270FEFB000EA4CDC /* TZImagePickerController.bundle in Resources */,
+				56FD6DF4270FEFB000EA4CDC /* Main.storyboard in Resources */,
+				56A93611271D6DF1007E4764 /* agconnect-services.plist in Resources */,
+				56FD6DF1270FEFB000EA4CDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5632E0B126C26EE000E67B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FD6DE3270FEFB000EA4CDC /* UIView+TZLayout.m in Sources */,
+				56FD6DDC270FEFB000EA4CDC /* NSBundle+TZImagePicker.m in Sources */,
+				56FD6DE7270FEFB000EA4CDC /* TZImageRequestOperation.m in Sources */,
+				56FD6DF0270FEFB000EA4CDC /* CGXPopoverView.m in Sources */,
+				56FD6DE8270FEFB000EA4CDC /* SVRadialGradientLayer.m in Sources */,
+				56FD6DF2270FEFB000EA4CDC /* SceneDelegate.m in Sources */,
+				56FD6DF5270FEFB000EA4CDC /* main.m in Sources */,
+				56FD6DEA270FEFB000EA4CDC /* SVProgressHUD.m in Sources */,
+				56FD6DE0270FEFB000EA4CDC /* TZImageManager.m in Sources */,
+				56FD6DD7270FEFB000EA4CDC /* TZAssetCell.m in Sources */,
+				56FD6DE6270FEFB000EA4CDC /* TZGifPhotoPreviewController.m in Sources */,
+				56FD6DE9270FEFB000EA4CDC /* SVProgressAnimatedView.m in Sources */,
+				56FD6DEF270FEFB000EA4CDC /* CGXPopoverItem.m in Sources */,
+				56FD6DE1270FEFB000EA4CDC /* TZPhotoPickerController.m in Sources */,
+				56FD6DDB270FEFB000EA4CDC /* TZAssetModel.m in Sources */,
+				56FD6E17270FEFB000EA4CDC /* AppDelegate.m in Sources */,
+				56FD6DEB270FEFB000EA4CDC /* SVIndefiniteAnimatedView.m in Sources */,
+				56FD6DD1270FEFB000EA4CDC /* Modeling3dDemoHomeVC.m in Sources */,
+				56FD6DE4270FEFB000EA4CDC /* TZImagePickerController.m in Sources */,
+				56FD6DCF270FEFB000EA4CDC /* Modeling3dDemoFilesListVC.m in Sources */,
+				56FD6DD8270FEFB000EA4CDC /* TZVideoEditedPreviewController.m in Sources */,
+				56FD6DD6270FEFB000EA4CDC /* TZImageCropManager.m in Sources */,
+				56FD6DEE270FEFB000EA4CDC /* CGXPopovewCell.m in Sources */,
+				56FD6DDF270FEFB000EA4CDC /* TZProgressView.m in Sources */,
+				56FD6DE2270FEFB000EA4CDC /* TZPhotoPreviewCell.m in Sources */,
+				56FD6DD0270FEFB000EA4CDC /* Modeling3dDemoMineVC.m in Sources */,
+				56FD6DD2270FEFB000EA4CDC /* Modeling3dProgressAlertView.m in Sources */,
+				56FD6DD9270FEFB000EA4CDC /* TZVideoCropController.m in Sources */,
+				56FD6DDA270FEFB000EA4CDC /* TZVideoPlayerController.m in Sources */,
+				56FD6DDD270FEFB000EA4CDC /* TZPhotoPreviewController.m in Sources */,
+				56FD6DE5270FEFB000EA4CDC /* TZLocationManager.m in Sources */,
+				56FD6DCE270FEFB000EA4CDC /* UIViewController+CustomAlert.m in Sources */,
+				56FD6DD4270FEFB000EA4CDC /* Modeling3dMainListCell.m in Sources */,
+				56FD6DED270FEFB000EA4CDC /* CGXPopoverManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5631E35127143AF9000F63A3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5631E35027143AF9000F63A3 /* en */,
+				5631E35327143B00000F63A3 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		56FD6D75270FEFAF00EA4CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FD6D76270FEFAF00EA4CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56FD6D77270FEFAF00EA4CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FD6D78270FEFAF00EA4CDC /* Base */,
+				56F94B9E2714308500EF6676 /* en */,
+				56F94BA0271430BA00EF6676 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5632E0CC26C26EEF00E67B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5632E0CD26C26EEF00E67B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5632E0CF26C26EEF00E67B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248VU829V8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo/3DMagicFramework/HAFormalAnalytics",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo",
+					"$(PROJECT_DIR)/Modeling3dDemo/Modeling3dFramework/HAFormalAnalytics",
+					"$(PROJECT_DIR)/Modeling3dDemo",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Modeling3dDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo/3DMagicFramework/iOS",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo/3DMagicFramework/GRS",
+					"$(PROJECT_DIR)/Modeling3dDemo/Modeling3dFramework/iOS",
+					"$(PROJECT_DIR)/Modeling3dDemo/Modeling3dFramework/GRS",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucky.agc.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+				VALID_ARCHS = "arm64 x86_64";
+			};
+			name = Debug;
+		};
+		5632E0D026C26EEF00E67B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 248VU829V8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo/3DMagicFramework/HAFormalAnalytics",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo",
+					"$(PROJECT_DIR)/Modeling3dDemo/Modeling3dFramework/HAFormalAnalytics",
+					"$(PROJECT_DIR)/Modeling3dDemo",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Modeling3dDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo/3DMagicFramework/iOS",
+					"$(PROJECT_DIR)/3DMagicObjReconstructDemo/3DMagicFramework/GRS",
+					"$(PROJECT_DIR)/Modeling3dDemo/Modeling3dFramework/iOS",
+					"$(PROJECT_DIR)/Modeling3dDemo/Modeling3dFramework/GRS",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucky.agc.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AGC Enterprise";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+				VALID_ARCHS = "arm64 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5632E0B026C26EE000E67B98 /* Build configuration list for PBXProject "Modeling3dDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5632E0CC26C26EEF00E67B98 /* Debug */,
+				5632E0CD26C26EEF00E67B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5632E0CE26C26EEF00E67B98 /* Build configuration list for PBXNativeTarget "Modeling3dDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5632E0CF26C26EEF00E67B98 /* Debug */,
+				5632E0D026C26EEF00E67B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5632E0AD26C26EE000E67B98 /* Project object */;
+}

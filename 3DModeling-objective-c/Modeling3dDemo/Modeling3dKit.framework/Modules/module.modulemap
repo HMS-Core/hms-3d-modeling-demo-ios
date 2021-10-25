@@ -1,0 +1,6 @@
+framework module Modeling3dKit {
+  umbrella header "Modeling3dKit.h"
+
+  export *
+  module * { export * }
+}

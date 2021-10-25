@@ -1,0 +1,35 @@
+/* 
+  Languages.strings
+  Modeling3dDemo
+
+  Created by zy on 2021/10/11.
+  
+*/
+
+
+"local_path" = "本地路径";
+"tips" = "提示";
+"permission_msg" = "请前往设置->照片->允许访问照片同意获取相册权限";
+"cancel" = "取消";
+"ok" = "确定";
+"u_pgs" = "上传进度";
+"d_pgs" = "下载进度";
+"upload" = "上传";
+"completed" = "已完成";
+"delete" = "删除";
+"download" = "下载";
+"query" = "查询状态";
+"a_res" = "添加限制";
+"r_res" = "取消限制";
+"u_status_0" = "未知状态";
+"u_status_1" = "初始化上传";
+"u_status_2" = "压缩";
+"u_status_3" = "分片";
+"u_status_4" = "上传";
+"u_status_5" = "通知云端上传完成";
+"task_status_0" = "待上传";
+"task_status_1" = "上传完成";
+"task_status_2" = "建模中";
+"task_status_3" = "建模完成";
+"task_status_4" = "建模失败";
+"task_status_5" = "未知状态";
