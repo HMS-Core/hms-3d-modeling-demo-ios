@@ -18,9 +18,9 @@ This sample code describes how to use the 3D Modeling Kit SDK, including the fol
 It includes image uploading, model previewing and model downloadling.
 
 <table><tr>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelUpload.png" width=320 title="upload page" border=2></td>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelPreview.png" width=320 title="preiview page" border=2></td>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelDownload.png" width=320 title="download page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/resources/ModelUpload.png?raw=true" width=320 title="upload page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/resources/ModelPreview.png?raw=true" width=320 title="preiview page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/resources/ModelDownload.png?raw=true" width=320 title="download page" border=2></td>
 </tr></table>
 
 
