@@ -1,5 +1,5 @@
 # 3DModeling-Sample
-English | [中文](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-Sample/README_ZH.md)
+English | [中文](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/README_ZH.md)
 
 ## Table of Contents
 
