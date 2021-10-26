@@ -19,9 +19,9 @@
 其中包括：上传采集图片、查询建模进度、下载模型。
 
 <table><tr>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelUpload_ZH.png" width=300 title="upload page" border=2></td>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelPreview.png" width=300 title="preview page" border=2></td>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelDownload_ZH.png" width=300 title="download page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/resources/ModelUpload_ZH.png?raw=true" width=300 title="upload page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/resources/ModelPreview.png?raw=true" width=300 title="preview page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/resources/ModelDownload_ZH.png?raw=true" width=300 title="download page" border=2></td>
 </tr></table>
 
 
