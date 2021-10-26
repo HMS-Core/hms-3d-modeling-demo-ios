@@ -1,5 +1,5 @@
 # 3DModeling-Sample
-English | [中文](https://github.com/HMS-Core/hms-3d-modeling-demo/blob/master/3DModeling-Sample/README_ZH.md)
+English | [中文](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-Sample/README_ZH.md)
 
 ## Table of Contents
 
@@ -15,12 +15,12 @@ English | [中文](https://github.com/HMS-Core/hms-3d-modeling-demo/blob/master/
 This sample code describes how to use the 3D Modeling Kit SDK, including the following modules:
 
 ### 3D Object Reconstruction
-It includes image uploading, task query and model downloadling.
+It includes image uploading, model previewing and model downloadling.
 
 <table><tr>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo/blob/master/3DModeling-Sample/resources/ModelCaptureEN.png" width=320 title="capture page" border=2></td>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo/blob/master/3DModeling-Sample/resources/ModelUploadEN.png" width=320 title="upload page" border=2></td>
-<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo/blob/master/3DModeling-Sample/resources/ModelDownloadEN.png" width=320 title="download page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelUpload.png" width=320 title="upload page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelPreview.png" width=320 title="preiview page" border=2></td>
+<td><img src="https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-objective-c/resources/ModelDownload.png" width=320 title="download page" border=2></td>
 </tr></table>
 
 
