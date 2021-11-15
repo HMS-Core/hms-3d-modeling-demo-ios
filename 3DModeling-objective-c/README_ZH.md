@@ -1,7 +1,7 @@
 # 3DModeling-Sample
 [![License](https://img.shields.io/badge/Docs-hmsguides-brightgreen)](https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ml-introduction-4)
 
-中文 | [English](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/master/3DModeling-Sample/README.md)
+中文 | [English](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/blob/main/3DModeling-objective-c/README.md)
 ## 目录
 
  * [介绍](#介绍)
