@@ -63,6 +63,13 @@ Attention:
 
 You should create an iOS app in AppGallery Connect, and obtain the agconnect-services.plist file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project. More to Development Process
 
+## FAQ
+
+If CopyPlistFile agconnect-services.plist is encountered during compilation, refer to the following issues:  
+
+[CopyPlistFile agconnect-services.plist Error](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/issues/1)
+
+
 ## Supported Environments
 Devices with IOS version 9.0 or later are recommended.
 
