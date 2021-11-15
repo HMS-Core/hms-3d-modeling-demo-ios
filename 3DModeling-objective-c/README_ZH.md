@@ -60,6 +60,12 @@
 
 您应该在AppGallery Connect中创建一个iOS应用程序，并获取agconnect-services.plist文件并将其添加到项目中。您还应生成签名证书指纹，并将证书文件添加到项目中。更多关于开发过程的信息
 
+## FAQ
+
+如果编译时遇到CopyPlistFile agconnect-services.plist，可以参考如下Issues:  
+
+[CopyPlistFile agconnect-services.plist Error](https://github.com/HMS-Core/hms-3d-modeling-demo-ios/issues/1)
+
 ## 支持的环境
 推荐使用IOS版本 9.0及以上版本的设备。
 
