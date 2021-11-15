@@ -56,7 +56,7 @@ For more application scenarios, see: [Huawei 3D Modeling Service Integration Cas
 
  - If you have not registered as a developer, [register and create an app in AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html).
  - Obtain the agconnect-services.plist file from [Huawei Developers](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/config-agc-0000001050990353).
- - Replace the agconnect-services.json file in the project.
+ - Replace the agconnect-services.plist file in the project.
  - Compile and run on an IOS device or simulator.
 
 Attention:
